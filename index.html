@@ -8,112 +8,151 @@
     <link rel="stylesheet" href="styles/mystyle.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap" rel="stylesheet">
-    <title>RealEstate</title>
+    <title>RealEstate Home Page</title>
 </head>
 <body>
     <header class="site-header">
         <div class="container flex-container">
-
-        <h1>RealEstate</h1>
-        <nav class="menu">
-            <a href="about.html">About</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </div>
-    <div class="container"> 
-        <p>We sell luxury houses, condominiums, and penthouses.</p>
-    </div>
+        <a href="index.html"><h1>RealEstate</h1></a>
+           
+        <div class="mobile-menu">
+            <a href="#navigation">
+                <img class="bars" src="./img/bars.svg" alt="hamburger menu">
+            </a>
+        </div>
+        <nav id="navigation"class="menu">
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <div class="container about-container"> 
+            <p>We sell luxury houses, condominiums, and penthouses.</p>
+        </div>
     </header>
     <main>
         <section class="about-us">
             <h2> More about us</h2>
             <div class="flex-container">
             
-            <div class="about-item">
-                <img src="img/icon1.svg" alt="security icon">
-                <h3>Security</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde et voluptatem corrupti quis autem veritatis voluptatum dicta, velit cupiditate consequatur porro tenetur facere nam praesentium molestias suscipit est mollitia tempore.</p>
-              </div>  
-            <div class="about-item">
-                    <img src="img/icon2.svg" alt="cash icon">
-                    <h3>The Best Prices</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde et voluptatem corrupti quis autem veritatis voluptatum dicta, velit cupiditate consequatur porro tenetur facere nam praesentium molestias suscipit est mollitia tempore.</p> 
-            </div>
+                <div class="about-item">
+                    <img src="img/icon1.svg" alt="security icon">
+                    <h3>Security</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde et voluptatem corrupti quis autem veritatis voluptatum dicta, velit cupiditate consequatur porro tenetur facere nam praesentium molestias suscipit est mollitia tempore.</p>
+                </div>  
+                <div class="about-item">
+                        <img src="img/icon2.svg" alt="cash icon">
+                        <h3>The Best Prices</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde et voluptatem corrupti quis autem veritatis voluptatum dicta, velit cupiditate consequatur porro tenetur facere nam praesentium molestias suscipit est mollitia tempore.</p> 
+                </div>
 
-            <div class="about-item">
-                <img src="img/icon3.svg" alt="cash icon">
-                <h3>On Time</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde et voluptatem corrupti quis autem veritatis voluptatum dicta, velit cupiditate consequatur porro tenetur facere nam praesentium molestias suscipit est mollitia tempore.</p>
+                <div class="about-item">
+                    <img src="img/icon3.svg" alt="cash icon">
+                    <h3>On Time</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde et voluptatem corrupti quis autem veritatis voluptatum dicta, velit cupiditate consequatur porro tenetur facere nam praesentium molestias suscipit est mollitia tempore.</p>
+                </div>
             </div>
-        </div>
-
-          </section> 
-          <section class="house-container container">
+        </section> 
+        
+        <section class="house-container container">
+            <div>
+                <h2><span>Houses and Penthouses</span></h2>
+            </div>
+            
             <div class="flex-container">
-            <div class="house-item">
-                <img src="./img/announcement1.jpg" alt="House on the lake">
-                <h3>Luxury House on the lake</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur reprehenderit quis qui  lroem</p>
-                <p> $ 3,000,000.00</p>
-                <div>
+                <div class="house-item">
                     <div>
-                        <img src="./img/icon_wc.svg" alt="wc icon">
-                    <p>3</p>
+                        <img src="./img/announcement1.jpg" alt="House on the lake">
+                        <div class="house-content">
+                            <h3>Luxury House on the lake</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur reprehenderit quis qui  lroem</p>
+                            <div class="text-price">
+                                <p> $ 3,000,000.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="house-content">
+                        <div class="flex-container">
+                            <div>
+                                <img src="./img/icon_wc.svg" alt="wc icon">
+                                <p>3</p>
+                            </div>
+                            <div>
+                                <img src="./img/icon_room.svg" alt="room icon">
+                                <p>4</p>
+                            </div>
+                            <div>
+                                <img src="./img/icon_parking.svg" alt="parking icon">
+                                <p>3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-container">
+                        <a href="#" class="details-btn">See details</a>
+                    </div>
                 </div>
-                <div>
-                    <img src="./img/icon_room.svg" alt="room icon">
-                    <p>4</p>
+                <div class="house-item">
+                    <img src="./img/announcement2.jpg" alt="beautiful house2">
+                    <h3>Luxury House</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ab repellendus ratione.</p>
+                    <div class="text-price">
+                        <p> $ 2,500,000.00</p>
+                    </div>
+                    
+                    <div class="house-content">
+                        <div class="flex-container">
+                            <div>
+                                <img src="./img/icon_wc.svg" alt="wc icon">
+                                <p>2</p>
+                            </div>
+                        
+                            <div>
+                                <img src="./img/icon_room.svg" alt="room icon">
+                                <p>3</p>
+                            </div>
+                            <div>
+                                <img src="./img/icon_parking.svg" alt="parking icon">
+                                <p>3</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="btn-container">
+                        <a href="#" class="details-btn">See details</a>
+                        </div>
                 </div>
-                <div>
-                    <img src="./img/icon_parking.svg" alt="parking icon">
-                    <p>3</p>
+                <div class="house-item">
+                    <img src="./img/announcement3.jpg" alt="beautiful house3">
+                    <h3>House With a Pool</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illum tempore consequuntur.</p>
+                    <div class="text-price">
+                        <p> $ 3,500,000.00</p>
+                    </div>
+                    <div class="house-content">
+                        <div class="flex-container">
+                            <div>
+                                <img src="./img/icon_wc.svg" alt="wc icon">
+                                <p>3</p>
+                            </div>
+                        
+                            <div>
+                                <img src="./img/icon_room.svg" alt="room icon">
+                                <p>4</p>
+                            </div>
+                                <div>
+                                    <img src="./img/icon_parking.svg" alt="parking icon">
+                                    <p>4</p>
+                                </div>
+                    </div>
+                    
                 </div>
-                  <a href="#">See details</a>
+                <div class="btn-container">
+                    <a href="#" class="details-btn">See details</a>
+                    </div>
             </div>
-            <div class="house-item">
-                <img src="./img/announcement2.jpg" alt="beautiful house2">
-                <h3>Luxury House</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ab repellendus ratione.</p>
-                <p> $ 2,500,000.00</p>
-                <div>
-                    <div>
-                        <img src="./img/icon_wc.svg" alt="wc icon">
-                    <p>2</p>
-                </div>
-                <div>
-                    <img src="./img/icon_room.svg" alt="room icon">
-                    <p>3</p>
-                </div>
-                <div>
-                    <img src="./img/icon_parking.svg" alt="parking icon">
-                    <p>3</p>
-                </div>
-                  <a href="#">See details</a>
-            </div>
-            <div class="house-item">
-                <img src="./img/announcement3.jpg" alt="beautiful house3">
-                <h3>House With a Pool</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illum tempore consequuntur.</p>
-                <p> $ 3,500,000.00</p>
-                <div>
-                    <div>
-                        <img src="./img/icon_wc.svg" alt="wc icon">
-                    <p>3</p>
-                </div>
-                <div>
-                    <img src="./img/icon_room.svg" alt="room icon">
-                    <p>4</p>
-                </div>
-                <div>
-                    <img src="./img/icon_parking.svg" alt="parking icon">
-                    <p>4</p>
-                </div>
-                  <a href="#">See details</a>
-            </div>
-        </div>
-          </section>
-               
+        </section>
+        
     </main>
     <footer>
 

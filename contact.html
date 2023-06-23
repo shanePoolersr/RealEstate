@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/mystyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="contact-header">
+        <div class="container flex-container">
+        <a href="index.html"><h1>RealEstate</h1></a>
+           
+        <div class="mobile-menu">
+            <a href="#navigation">
+                <img class="bars" src="./img/bars.svg" alt="hamburger menu">
+            </a>
+        </div>
+            <nav id="navigation"class="menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                
+            </nav>
+        </div>
+        <div class="container about-container"> 
+            <p>We sell luxury houses, condominiums, and penthouses.</p>
+        </div>
+    </header>
+    <body>
+    <main class="container">
+        <h2>contact</h2>
+        <h3>Fill the next information</h3>
+
+        <form>
+            <fieldset>
+                <legend>Personal information</legend>
+                <div class="input-control">
+                    <label>Name:</label>
+                    <input type="text" placeholder="type your name">
+                </div>
+                
+                <div class="input-control">
+                    <label>Phone:</label>
+                    <input type="tel">
+                </div>
+                <div class="input-control">
+                    <label>Message:</label>
+                    <textarea cols="30" rows="10"></textarea>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Product information</legend>
+                <div class="input-control">
+                        <label>Type:</label>
+                        <select>
+                            <option value="---Select an option---">-- option 1 --</option>
+                            <option value="---Select an option---">-- option 1 --</option>
+                            <option value="---Select an option---">-- option 1 --</option>
+                        </select>
+                    </div>
+                    
+                     <div class="input-control">
+                        <label>NUMBER:</label>
+                        <input type="number" class="input-control" id="age">
+                    </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Contact information</legend>
+                <div class="radiobtn-container">
+                    <div>
+                    <label for="phone">PHONE</label>
+                    </div>
+                    <div>
+                    <input type="radio" id="phone" name="fav_language" value="PHONE">
+                    </div>
+                    <div>
+                    <label for="email">EMAIL</label>
+                    </div>
+                    <div>
+                    <input type="radio" id="email" name="fav_language" value="EMAIL">
+                    </div>
+                    </div>
+
+                    <div class="input-control">
+                    <p>If you want to be contacted by phone, please select a day and hour:</p>
+                    <label>Date:</label>
+                    <input type="date">
+                    </div>
+                </div>
+                <div class="input-control">
+                    <label>HOUR:</label>
+                    <input type="time">
+                </div>
+                    <div class="submit-btn">
+                        <button>submit</button>
+                    </div>
+                
+            </fieldset>
+            
+        </form>
+    </main>
+</body>
+</html>
